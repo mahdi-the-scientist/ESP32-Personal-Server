@@ -27,6 +27,7 @@ jobs:
       - name: Compile Sketch
         run: |
           mkdir -p build
+          # এখানে আমি নির্দিষ্ট করে বলে দিচ্ছি ফাইলটি মেইন ডিরেক্টরিতে আছে
           arduino-cli compile --fqbn esp32:esp32:esp32 --output-dir ./build ./sketch.ino
 
       - name: Upload Binary
