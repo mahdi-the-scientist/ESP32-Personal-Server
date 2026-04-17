@@ -12,8 +12,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
 const int ledPin = 2;
 unsigned long previousMillis = 0;
-const char* ssid = "ESP32_File_Server";
-const char* password = "password123";
+const char* ssid = "Personal Server";
+const char* password = "mahdi@1234";
 
 AsyncWebServer server(80);
 
