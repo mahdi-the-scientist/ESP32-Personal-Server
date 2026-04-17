@@ -28,7 +28,6 @@ jobs:
       - name: Compile
         run: |
           mkdir -p build
-          # এখানে আমরা সরাসরি sketch.ino ফাইলটিকে টার্গেট করছি
           arduino-cli compile --fqbn esp32:esp32:esp32 --output-dir ./build ./sketch.ino
 
       - name: Upload
